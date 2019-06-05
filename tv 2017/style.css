@@ -1,0 +1,65 @@
+body{
+            background-color: #000;
+            font-family: 'Press Start 2P', cursive;
+            color: white;
+            font-size: 16px;
+        }
+        #title{margin-bottom: 25px;}
+        p{font-weight: 100;
+            line-height: 1.7;
+            font-size: 1.2em;
+}
+
+        h1{font-size: 2.8em;
+            margin: 0;}
+        h2{font-size: 1.2em;
+            margin: 0;
+            line-height: 2;}
+        h3{font-size: 6.6em;
+            line-height: 2;
+            text-align: center;}
+        h3.rosso{ font-size: 3em;}
+        h3.giallo{ font-size: 2em;}
+        .bluetitle{background-color: blue;
+                    padding: 5px;
+                    display: inline-block;}
+        .greentitle{background-color: limegreen;
+                    padding: 5px;
+                    display: inline-block;}
+        .bg-giallo{background-color: yellow;
+                    padding: 10px 10px;
+                    }
+        .bg-giallo h2{
+            font-size: 1em;
+        }
+        .giallo{color: yellow;}
+        .verde{color: limegreen;}
+        .hotpink{color: hotpink;}
+        .nero{color: black;}
+        .rosso{color: red;}
+        .titolo{padding: 10px 0;}
+        .bg-blue{background-color: blue; height: 10px}
+        .blue{color: blue;}
+        
+        .move {
+    position :relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 100px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 100px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+        
