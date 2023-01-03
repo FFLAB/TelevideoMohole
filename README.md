@@ -4,4 +4,4 @@ This is only a proof of concept to realize a fake TeleText (Televideo in italian
 Enjoy.
 
 See live current version here:
-https://cocky-payne-bdd1fc.netlify.com/
+https://telemohole.netlify.app/
